@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="home.html" name="login" method="post" onsubmit="doSubmit()" target="_top" autocomplete="on">
+
+        <div id="loginEntry" class="loginItem">
+            <div class="loginLabel">
+                <label for="USERNAME">User ID:</label>
+            </div>
+            <div class="loginField">
+                <input id="userNameField" type="text" size="20" class="loginTextEntry" title="User ID" name="USERNAME" maxlength="700" tabindex="1" aria-label="User ID">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="loginEntry" class="loginItem">
+            <div class="loginLabel">
+                <label for="PASSWORD">Password:</label>
+            </div>
+            <div class="loginField">
+                <input id="passwordField" type="password" size="20" class="loginTextEntry" title="Password" name="PASSWORD" value="" tabindex="2">
+            </div>
+        </div>
+        <div>
+            <div id="loginSubmit">
+                <input type="submit" tabindex="3" value="Log In" title="Log In" class="loginButton" style="">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
